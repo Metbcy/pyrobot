@@ -8,13 +8,13 @@ from yacs.config import CfgNode as CN
 _C = CN()
 
 # whether the robot has an arm or not
-_C.HAS_ARM = True
+_C.HAS_ARM = False
 # whether the robot has a mobile base or not
 _C.HAS_BASE = True
 # whether the robot has a camera or not
 _C.HAS_CAMERA = True
 # whether the robot has a gripper or not
-_C.HAS_GRIPPER = True
+_C.HAS_GRIPPER = False
 # whether the robot has a common shared class among all components
 _C.HAS_COMMON = False
 
